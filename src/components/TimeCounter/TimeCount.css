@@ -1,0 +1,8 @@
+.timer {
+  font-family: var(--font-family);
+  color: white;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 60px;
+  letter-spacing: -0.04em;
+}
