@@ -5,7 +5,8 @@ import { useNavigate } from 'react-router-dom';
 import TimerCount from '../TimeCounter/TimerCount';
 import logo from '../../assets/ped.png';
 
-const backend = 'http://127.0.0.1:8000';
+// const backend = 'http://127.0.0.1:8000';
+const backend = 'https://dee-server.onrender.com';
 
 const Navbar = () => {
   const Navigate = useNavigate();
