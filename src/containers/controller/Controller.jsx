@@ -5,7 +5,7 @@ import { Navbar } from '../../components';
 import './controller.css';
 import blueMic from '../../assets/mic-blue.png';
 import redMic from '../../assets/voice-search.png';
-import chatbot from '../../assets/chatbot.png';
+// import chatbot from '../../assets/chatbot.png';
 
 import dry_baby from '../../assets/dry_baby.jpg';
 import facemask from '../../assets/facemask.PNG';
@@ -21,7 +21,9 @@ import baby from '../../assets/babyy.png';
 import vascular from '../../assets/vascular.jpg';
 import discuss from '../../assets/discuss.jpeg';
 
-const backend = 'http://127.0.0.1:8000';
+// const backend = 'http://127.0.0.1:8000';
+
+const backend = 'https://dee-server.onrender.com';
 
 const Controller = () => {
   const { listening, transcript } = useSpeechRecognition();
